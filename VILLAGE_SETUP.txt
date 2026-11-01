@@ -1,0 +1,65 @@
+========================================
+MEECHYLAND VILLAGE (loads at spawn)
+========================================
+
+This is for the grown-up. Once the server is running:
+
+1. Set the world spawn to a flat or nice area.
+2. Use these commands (or WorldEdit if installed) to build a simple village around spawn.
+
+----------------------------------------
+SPAWN POINT
+----------------------------------------
+/setworldspawn 0 70 0
+/spawnpoint Mila 0 70 0
+
+----------------------------------------
+SIMPLE VILLAGE BUILD COMMANDS
+----------------------------------------
+# Clear a platform
+/fill -20 68 -20 20 68 20 grass
+
+# Mila's house (pink)
+/fill -10 69 -10 -4 73 -4 planks
+/fill -9 70 -9 -5 72 -5 air
+/setblock -7 70 -7 door 0
+/fill -10 74 -10 -4 74 -4 wooden_slab
+
+# Neighbor house (purple)
+/fill 5 69 -10 11 73 -4 stained_hardened_clay 10
+/fill 6 70 -9 10 72 -5 air
+/setblock 8 70 -7 door 0
+
+# Animal pens
+/fill -15 69 5 -8 69 12 fence
+/summon cow -12 70 8
+/summon pig -10 70 10
+/summon sheep -14 70 9
+/summon chicken -11 70 11
+
+# Village well / center
+/fill -2 69 -2 2 71 2 cobblestone
+/setblock 0 72 0 water
+
+# Path
+/fill -20 69 0 20 69 0 stone 5
+
+# Some villagers (NPCs)
+/summon villager 0 70 5
+/summon villager -8 70 -7
+/summon villager 8 70 -7
+
+# Flowers and trees
+/setblock -6 70 4 red_flower
+/setblock 6 70 4 yellow_flower
+/setblock -15 70 -5 sapling
+
+----------------------------------------
+NOTES
+----------------------------------------
+- Run these near spawn (0, 70, 0) after the world is generated.
+- For a better village, build it once in singleplayer, then copy the region files to the server world folder.
+- Mila will spawn here every time she joins.
+- She has GOD mode so she can freely expand the village.
+
+After this, run the expanded starter kit from GIVE_MILA_HER_STUFF.txt
