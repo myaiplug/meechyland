@@ -1,0 +1,60 @@
+========================================
+GROWN-UP SERVER SETUP (MeechyLand)
+========================================
+
+This is for the adult. Mila only needs the START_HERE_FOR_MILA.txt file.
+
+GOAL: Private family Minecraft server in the browser.
+Mila gets permanent Creative / GOD mode and a starter kit.
+
+----------------------------------------
+EASIEST WAY (recommended)
+----------------------------------------
+1. Download a Minecraft 1.8 server jar (search "minecraft 1.8 server download")
+2. Create a folder called MeechyLandServer
+3. Put the server jar in the folder
+4. Run it once: java -Xmx2G -jar minecraft_server.1.8.jar
+5. Accept the EULA (edit eula.txt to eula=true)
+6. Edit server.properties:
+   - online-mode=false
+   - white-list=true
+   - gamemode=1
+   - max-players=10
+
+7. Create whitelist.json or use commands:
+   /whitelist add Mila
+   /whitelist add (other family names)
+
+8. Give Mila GOD mode (run once):
+   /op Mila
+   /gamemode creative Mila
+
+9. For browser connection you need an Eaglercraft proxy
+   (EaglerXServer or BungeeCord + Eagler plugin).
+   Follow the official Eaglercraft server guide for the proxy part.
+   Once running, put the WebSocket address into meechyland-index.html
+
+----------------------------------------
+AUTO STARTER KIT (optional but fun)
+----------------------------------------
+On the server, you can set a command block or use a simple plugin
+to run the commands in GIVE_MILA_HER_STUFF.txt every time Mila joins.
+
+Or just run them manually the first time she joins.
+
+----------------------------------------
+CLIENT SIDE
+----------------------------------------
+- Use the meechyland-index.html file
+- Change the server address inside it to your real server
+- Serve it with any simple web server or just open it locally for testing
+- Mila opens it in the browser, types "Mila", and joins
+
+----------------------------------------
+SAFETY
+----------------------------------------
+- Keep the server private (whitelist only)
+- Do not share the address publicly
+- Back up the world folder regularly
+
+That's it. Once the server is running, Mila follows START_HERE_FOR_MILA.txt

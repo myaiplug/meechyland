@@ -1,0 +1,62 @@
+========================================
+  MEECHYLAND - HOW TO PLAY (for Mila!)
+========================================
+
+Hi Mila! This is your own special Minecraft that works in the internet browser.
+
+You get GOD mode (you can fly, never die, and build anything).
+
+Grown-up help is needed for the first setup. After that you can play by yourself!
+
+----------------------------------------
+STEP 1 - Ask a grown-up to start the server
+----------------------------------------
+The grown-up follows the file called:
+  GROWN_UP_SERVER_SETUP.txt
+
+----------------------------------------
+STEP 2 - Open MeechyLand in your browser
+----------------------------------------
+1. Open Chrome or Edge
+2. Go to the special link the grown-up gives you
+   (or open the file meechyland-index.html if it is on your computer)
+
+3. Type your name: Mila
+4. Click Multiplayer
+5. Click "MeechyLand Family Server"
+6. Click Join!
+
+----------------------------------------
+STEP 3 - You are in GOD mode!
+----------------------------------------
+- Press space twice to fly
+- Press space to go up
+- Press shift to go down
+- You cannot die
+- You have a special starter kit in your inventory
+
+----------------------------------------
+YOUR SPECIAL STARTER ITEMS
+----------------------------------------
+When you join, a grown-up can give you these (or they auto-give if set up):
+
+- Mila's Magic Sword (super strong)
+- Mila's Flying Boots
+- Rainbow Blocks
+- Sparkle Blocks
+- Mila's Building Kit
+- Infinite food and tools
+
+Ask the grown-up to run the commands in:
+  GIVE_MILA_HER_STUFF.txt
+
+----------------------------------------
+FUN THINGS TO DO
+----------------------------------------
+- Build a giant castle
+- Make a rainbow house
+- Fly around the whole world
+- Invite family to join
+
+Have fun in MeechyLand!
+========================================
