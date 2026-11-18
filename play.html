@@ -8,6 +8,8 @@
 <script type="text/javascript">
 "use strict";
 window.addEventListener("load", function() {
+  var host = (location.protocol === "http:" && location.host) ? location.host : "192.168.1.120:25565";
+  var ws = "ws://" + host + "/";
   window.eaglercraftXOpts = {
     demoMode: false,
     container: "game_frame",
@@ -15,8 +17,9 @@ window.addEventListener("load", function() {
     localesURI: "lang/",
     worldsDB: "meechyland",
     servers: [
-      { addr: "ws://YOUR_SERVER_HERE:PORT/", name: "MeechyLand (Mila's Village)" }
-    ]
+      { addr: ws, name: "MeechyLand (Mila's Village)" }
+    ],
+    joinServer: ws
   };
   main();
 });
